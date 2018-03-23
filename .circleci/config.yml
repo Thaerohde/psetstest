@@ -3,7 +3,6 @@ jobs:
   build:
     docker:
       - image: debian:stretch
-
     steps:
       - checkout
       - run:
@@ -11,4 +10,5 @@ jobs:
           command: echo Hello, world.
       - run:
           name: Print the Current Time
+          
           command: date
