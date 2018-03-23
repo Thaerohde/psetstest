@@ -1,6 +1,7 @@
 package at.RefugeesCode.psetstests.rockscissorspaperlizardspock.controller;
 
 
+import at.RefugeesCode.psetstests.pset4.controller.SecurityControl;
 import at.RefugeesCode.psetstests.rockscissorspaperlizardspock.model.Choice;
 import at.RefugeesCode.psetstests.rockscissorspaperlizardspock.model.Result;
 import org.junit.Assert;
@@ -15,6 +16,7 @@ class JudgeTest {
     private Judge judge = new Judge();
     private Choice firstChoice;
     private Choice secondChoice;
+
 
 
     @BeforeEach
